@@ -23,9 +23,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 personal portfolio <a name="about-project"></a>
+# 📖 Hello Microverse <a name="about-project"></a>
 
-**personal portfolio** is a personal portfolio wrinten in html using flexbox with css styling using figma template
+**Hello Microverse** is a website that displayin text wrinten in html with css styling 
 
 ## 🛠 Built With <a name="built-with"></a>
 
