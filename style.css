@@ -1,3 +1,6 @@
+#body {
+  margin: 0
+}
 #nav {
   display: flex;
   justify-content: space-between;
@@ -15,7 +18,32 @@
   text-align: center;
   margin-left: 24px;
 }
-
+ #logo {
+  width: 76px;
+  height: 20px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  /* identical to box height, or 111% */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  /* Primary/B400 */
+  
+  color: #6070FF;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
 #nav a:hover {
   text-decoration: underline;
   text-decoration-color: #23a3fa;
@@ -92,7 +120,7 @@ section h1:hover {
   text-decoration-thickness: 2px;
 }
 
-footer h3 {
+section h3 {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -102,13 +130,13 @@ footer h3 {
   margin-left: 24px;
 }
 
-footer h3:hover {
+section h3:hover {
   text-decoration: underline;
   text-decoration-thickness: 2px;
   text-decoration-color: #23a3fa;
 }
 
-section footer {
+section article {
   display: flex;
   flex-direction: column;
 }
