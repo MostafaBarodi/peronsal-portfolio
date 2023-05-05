@@ -1,104 +1,107 @@
 
 #main-section {
-
-    display: flex;
-    flex-direction: column; 
-    gap: 100px;
-    padding-bottom: 20px;
-   background-image: url(Images/header-shapes\ mobile.png);
-     width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  padding-bottom: 20px;
+  background-image: url(Images/header-shapes\ mobile.png);
+  width: 100%;
   height: 100vh;
   background-repeat: no-repeat;
   margin-bottom: 114px;
 }
 
-#bar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+#bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-#name{
-    flex-direction: column;
-/* Primary Text */
-width: 327px;
-height: 150px;
 
-/* Header / 2 */
+#name {
+  flex-direction: column;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-/* or 130% */
+  /* Primary Text */
+  width: 327px;
+  height: 150px;
 
-display: flex;
+  /* Header / 2 */
 
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
 
-/* Neutrals/N800 */
+  /* or 130% */
 
-color: #172B4D;
+  display: flex;
 
 
-/* Inside auto layout */
+  /* Neutrals/N800 */
 
-flex: none;
-order: 0;
-flex-grow: 0;
+  color: #172b4d;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
-#bio{
-    /* Primary Text */
 
-width: 327px;
-height: 146px;
+#bio {
+  /* Primary Text */
 
-/* Body / 2 */
+  width: 327px;
+  height: 146px;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-/* or 150% */
+  /* Body / 2 */
 
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 
-/* Neutrals/N600 */
-
-color: #344563;
+  /* or 150% */
 
 
-/* Inside auto layout */
+  /* Neutrals/N600 */
+
+  color: #344563;
 
 
+  /* Inside auto layout */
 }
-#link{
-width: 117px;
-height: 24px;
 
-/* Body / 2 - Bolder */
+#link {
+  width: 117px;
+  height: 24px;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height, or 150% */
+  /* Body / 2 - Bolder */
 
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
 
-/* Primary/B300 */
-
-color: #7F8CFF;
+  /* identical to box height, or 150% */
 
 
-/* Inside auto layout */
+  /* Primary/B300 */
+
+  color: #7f8cff;
 
 
+  /* Inside auto layout */
 }
-#social-bar{
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    justify-content: left;
+
+#social-bar {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: left;
 }
 a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
