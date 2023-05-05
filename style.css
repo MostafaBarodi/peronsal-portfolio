@@ -42,9 +42,8 @@ li {
 }
 
 .header-section {
-  padding-left: 24px;
-  padding-right: 24px;
-  width: 327px;
+    height: 70px;
+    width: 327px;
 }
 
 .header {
@@ -94,7 +93,7 @@ li {
   margin-top: -82px;
 }
 
-.section-hero {
+.section-tool {
   padding-bottom: 20px;
   background-image: url(img/header-shapes\ mobile.png);
   width: 100%;
@@ -126,7 +125,7 @@ li {
   padding-top: 110px;
 }
 
-.hero-discription {
+.tool-discription {
   font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
