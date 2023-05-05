@@ -1,15 +1,18 @@
 {
-  "extends": [
-    "development"
-  ],
-  "hints": {
-    "detect-css-reflows/composite": "off",
-    "detect-css-reflows/paint": "off",
-    "axe/text-alternatives": [
-      "default",
-      {
-        "image-alt": "off"
+    "connector": {
+      "name": "local",
+      "options": {
+        "pattern": ["**", "!.git/**", "!node_modules/**"]
       }
+    },
+    "extends": ["development"],
+    "formatters": ["stylish"],
+    "hints": [
+      "button-type",
+      "disown-opener",
+      "html-checker",
+      "meta-charset-utf-8",
+      "meta-viewport",
+      "no-inline-styles:error"
     ]
   }
-}
