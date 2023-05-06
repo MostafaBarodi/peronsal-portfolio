@@ -10,14 +10,25 @@
   background-repeat: no-repeat;
   margin-bottom: 114px;
 }
-
+#nav {
+  padding-top: 20px;
+  padding-right: 20px;
+}
+#logo {
+padding-left: 20px;
+padding-top: 20px;
+}
 #bar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  
 }
 
 #name {
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
   flex-direction: column;
   width: 327px;
   height: 150px;
@@ -34,6 +45,8 @@
 }
 
 #bio {
+  padding-top: 10px;
+ 
   width: 327px;
   height: 146px;
   font-family: "Poppins", Arial, Verdana, Tahoma, sans-serif;
@@ -45,6 +58,8 @@
 }
 
 #link {
+  padding-top: 10px;
+ 
   width: 117px;
   height: 24px;
   font-family: "Poppins", Arial, Verdana, Tahoma, sans-serif;
@@ -56,6 +71,8 @@
 }
 
 #social-bar {
+  padding-top: 10px;
+  
   display: flex;
   flex-direction: row;
   gap: 15px;
